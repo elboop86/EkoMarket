@@ -1,0 +1,14 @@
+.payment-title {
+    color: #005746;
+    text-align: center;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+}
+
+.observations {
+    color: #005746;
+}
+

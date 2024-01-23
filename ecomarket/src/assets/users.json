@@ -1,0 +1,28 @@
+{
+    "users" : [
+        {
+            "id" : 1,
+            "name" : "Jose Luís",
+            "apellido" : "Narvaez",
+            "telefono" : "654654654",
+            "email": "josenarvaez@gmail.com",
+            "direccion" : "c/ uno",
+            "cp" : "11005",
+            "ciudad" : "Cádiz",
+            "provincia" : "Cádiz",
+            "pais" : "España"
+        },
+        {
+            "id" : 2,
+            "name" : "Jose Luís",
+            "apellido" : "Narvaez",
+            "telefono" : "654654654",
+            "email": "josenarvaez@gmail.com",
+            "direccion" : "c/ uno",
+            "cp" : "11005",
+            "ciudad" : "Cádiz",
+            "provincia" : "Cádiz",
+            "pais" : "España"
+        }
+    ]
+}

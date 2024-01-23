@@ -1,0 +1,5 @@
+com/ecomarket/entity/User.class
+com/ecomarket/controller/HtmlController.class
+com/ecomarket/repository/UserRepository.class
+com/ecomarket/controller/MainApplication.class
+com/ecomarket/services/UserService.class

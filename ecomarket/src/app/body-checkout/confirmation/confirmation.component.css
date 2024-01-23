@@ -1,0 +1,15 @@
+.container {
+    border: solid 1px grey;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.country {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment {
+    display: flex;
+    justify-content: flex-end;
+}

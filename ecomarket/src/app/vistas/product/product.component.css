@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.categor {
+    color: #9DCF24;
+}
+    
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}    
+
+.colstar {
+    fill: #9DCF24;
+    stroke: #9DCF24;
+}
+.ratiostar {
+    font-size: x-small;
+    margin-right: .6rem;
+}
+.hstar {
+    margin-left: .6rem;    
+} 
+.imgprod {   
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom:.5rem;
+}
+.imgprod i {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+.cont-des {
+    margin-left: 1rem;
+}
+.prodstock {
+    margin-top: .5rem;
+    
+}
+.priceprod {
+    padding: .5rem;
+}
+.priceprod p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.spkg {        
+    font-size: medium;      
+} 
+.descu {
+    font-size: medium;
+    margin-left: 1rem;
+    padding: 1rem;    
+}
+.descu p {
+    font-size: medium;
+    color: grey;
+    text-decoration: line-through;
+}
+.bord {
+    display: flex;
+    border: 2px solid gray;
+    margin: 0 1.5rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px grey;
+    margin-bottom: 5rem;
+}
+.butinfo {
+    margin-left: 1rem;    
+}
+.butinfo button {
+    font-size: small;
+    font-weight: 700;
+}
+.col1 {
+    border-radius: 2px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+.oferta {
+    margin: 1rem;
+}
+.oferta span {
+    font-size: 1rem;
+    font-weight: 900;
+}
+.oferta p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+@media (min-width: 576px) and (max-width: 991px) {
+    .imgprod {   
+    border-radius: 20px;
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom:.5rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1399px) {
+    .imgprod {   
+    border-radius: 20px;
+    width: 60%;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom:.5rem;
+    }
+}

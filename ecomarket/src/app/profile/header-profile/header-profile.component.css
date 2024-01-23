@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../../../assets/fonts/MontserratAlternates-Bold.ttf);
+}
+.text-1 {
+  font-size: 24px;
+  font-family: Montserrat;
+  color: #00b597;
+}
+i {
+  height: 32px;
+  width: 32px;
+  color: #00b597;
+}

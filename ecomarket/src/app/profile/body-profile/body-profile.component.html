@@ -1,0 +1,78 @@
+
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-lg-6 offset-lg-3">
+      <div class="dropdown-container">
+        <div class="dropdown d-block font">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="datosDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            Mis datos
+          </button>
+          <ul class="dropdown-menu custom-style" aria-labelledby="datosDropdown">
+            <li><strong>Nombre:</strong> Jose Luis</li>
+            <li><strong>Apellidos:</strong> Perez Perez</li>
+            <li><strong>Fecha de nacimiento:</strong> 01/01/2001</li>
+            <li><strong>Email:</strong> email@ecomarket.es</li>
+            <li><a class="dropdown-item modify-password" href="#">Modificar contraseña</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6 offset-lg-3">
+      <div class="dropdown-container">
+        <div class="dropdown d-block">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="comprasDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            Mis compras
+          </button>
+          <ul class="dropdown-menu custom-style" aria-labelledby="comprasDropdown">
+             Contenido Mis compras
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6 offset-lg-3">
+      <div class="dropdown-container">
+        <div class="dropdown d-block">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="direccionesDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            Mis direcciones
+          </button>
+          <ul class="dropdown-menu custom-style" aria-labelledby="direccionesDropdown">
+           Contenido Mis direcciones
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 offset-lg-3">
+      <div class="card custom-card">
+        <div class="card-body">
+          <h5 class="card-title">Mis datos</h5>
+          <hr>
+          <p>
+            <span>Nombre: </span><span>{{username}}</span>
+          </p>
+          <p>
+            <span>Email: </span><span>{{email}}</span>
+          </p>
+          <p>
+            <a href="#" class="modify-link">Modificar contraseña</a>
+          </p>
+          <hr>
+          <p class="card-text">Mis compras</p>
+          <hr>
+          <p class="card-text">Mis direcciones</p>
+          <hr>
+          <p class="card-text"(click)="logout()">Logout</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

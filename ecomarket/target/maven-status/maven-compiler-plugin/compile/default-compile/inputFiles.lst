@@ -1,0 +1,14 @@
+/home/daniel/Projects/Proyecto-FrontEnd-grupo-2/ecomarket/src/main/java/com/ecomarket/services/UserFormService.java
+/home/daniel/Projects/Proyecto-FrontEnd-grupo-2/ecomarket/src/main/java/com/ecomarket/repository/UserRepository.java
+/home/daniel/Projects/Proyecto-FrontEnd-grupo-2/ecomarket/src/main/java/com/ecomarket/services/UserService.java
+/home/daniel/Projects/Proyecto-FrontEnd-grupo-2/ecomarket/src/main/java/com/ecomarket/repository/CartRepository.java
+/home/daniel/Projects/Proyecto-FrontEnd-grupo-2/ecomarket/src/main/java/com/ecomarket/controller/HtmlController.java
+/home/daniel/Projects/Proyecto-FrontEnd-grupo-2/ecomarket/src/main/java/com/ecomarket/configuration/WebMvcConfig.java
+/home/daniel/Projects/Proyecto-FrontEnd-grupo-2/ecomarket/src/main/java/com/ecomarket/controller/MainApplication.java
+/home/daniel/Projects/Proyecto-FrontEnd-grupo-2/ecomarket/src/main/java/com/ecomarket/controller/CartController.java
+/home/daniel/Projects/Proyecto-FrontEnd-grupo-2/ecomarket/src/main/java/com/ecomarket/entity/User.java
+/home/daniel/Projects/Proyecto-FrontEnd-grupo-2/ecomarket/src/main/java/com/ecomarket/controller/UserController.java
+/home/daniel/Projects/Proyecto-FrontEnd-grupo-2/ecomarket/src/main/java/com/ecomarket/entity/Cart.java
+/home/daniel/Projects/Proyecto-FrontEnd-grupo-2/ecomarket/src/main/java/com/ecomarket/repository/UserFormRepository.java
+/home/daniel/Projects/Proyecto-FrontEnd-grupo-2/ecomarket/src/main/java/com/ecomarket/services/CartService.java
+/home/daniel/Projects/Proyecto-FrontEnd-grupo-2/ecomarket/src/main/java/com/ecomarket/entity/UserForm.java

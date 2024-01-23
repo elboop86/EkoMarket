@@ -1,0 +1,48 @@
+<mat-accordion>
+    <!-- <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false" expanded>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <div class="title-accordion">
+            Datos de envío
+          </div>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p><strong>Nombre:</strong> {{nombre}}</p>
+      <p><strong>Apellidos:</strong> {{apellidos}}</p>
+      <p><strong>Teléfono:</strong> {{telefono}}</p>
+      <p><strong>E-mail:</strong> {{email}}</p>
+      <p><strong>Dirección de envío:</strong> {{direccion}}</p>
+      <p><strong>Código postal:</strong> {{postalcode}}</p>
+      <p><strong>Ciudad:</strong> {{ciudad}} <strong>Provincia:</strong> {{provincia}}</p>
+      <div class="country">
+          <p><strong>País:</strong> {{pais}}</p>
+          <a href="/address"><p>Modificar</p></a>
+      </div>
+    </mat-expansion-panel> -->
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false" expanded>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+            <div class="title-accordion">
+                Datos
+            </div>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p><strong>sr:</strong> {{sr}}</p>
+      <p><strong>nif:</strong> {{nif}}</p>
+      <p><strong>nombre:</strong> {{nombre}}</p>
+      <p><strong>phone:</strong> {{phone}}</p>
+      <p><strong>E-mail:</strong> {{email}}</p>
+      <p><strong>empresa:</strong> {{empresa}}</p>
+      <p><strong>calle:</strong> {{calle}}</p>
+      <p><strong>numero:</strong> {{numero}}</p>
+      <p><strong>piso:</strong> {{piso}}</p>
+      <p><strong>puerta:</strong> {{puerta}}</p>
+      <p><strong>localidad:</strong> {{localidad}}</p>
+      <p><strong>provincia:</strong> {{provincia}}</p>
+      <p><strong>comunidad:</strong> {{comunidad}}</p>
+      <p><strong>cp:</strong> {{cp}}</p>
+      <p><strong>puntoderecogida:</strong> {{puntoderecogida}}</p>
+    </mat-expansion-panel>
+  </mat-accordion>

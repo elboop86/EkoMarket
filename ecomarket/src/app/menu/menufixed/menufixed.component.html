@@ -1,0 +1,18 @@
+<mat-sidenav-container id="container"
+    class="example-container" (backdropClick)="close('backdrop')">
+  <mat-sidenav #sidenav (keydown.escape)="close('escape')" disableClose>
+    <a href=""><p>Home</p></a>
+    <a href="/products"><p>Productos</p></a>
+    <a href="/cart"><p>Carrito</p></a>
+    <a href="mailto:info@ecomarket.com"><p>Contacto</p></a>
+  </mat-sidenav>
+
+</mat-sidenav-container>
+
+<div class="menufixed">
+    <a href=""><i class="fa-solid fa-home icostyle"></i></a>
+    <a href="{{href}}"><i class="fa-solid fa-user icostyle"></i></a>
+    <a href="/cart"><i class="fa-solid fa-shopping-cart icostyle"></i></a>
+    <i class="fa-solid fa-bars icostyle" (click)="open()"></i>
+</div>
+

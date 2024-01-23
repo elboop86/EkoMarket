@@ -1,0 +1,44 @@
+.card {
+    max-width: 25rem;
+}
+
+.subcontent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_name {
+    text-align: center;
+}
+
+.price {
+    margin-bottom: 0;
+}
+
+.mdc-card__actions{
+    align-self: center;
+    background-color: #005746;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.mat-mdc-button-base {
+    color:white !important;
+}
+
+img {
+    height: 6rem;
+    width: auto;
+}
+
+.center-img {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width : 768px) {
+    img {
+        height: 9rem;
+        width: auto;
+    }
+}

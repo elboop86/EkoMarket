@@ -1,0 +1,58 @@
+.navtop_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #005746;
+    height: 2rem;
+}
+
+.navtop_container_phone{
+    color: white;
+    height: auto;
+    width: 8.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navtop_container_rrss {
+    height: auto;
+    width: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navtop_container_rrss svg {
+    color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.6rem;
+    width: auto;
+}
+
+@media (min-width: 992px) {
+    .navtop_container{
+        height: 3rem;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    i{
+        margin: 1rem;
+    }
+
+    svg {
+        height: 1.5rem;
+        width: 1.5rem;
+        margin: 0.4rem;
+    }
+
+    .logo {
+        display:none;
+    }
+    
+}

@@ -1,0 +1,41 @@
+.product {
+    display: flex;
+    padding-left: 0.5rem;
+    color: #005746;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+
+.card i {
+    text-align: right;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+}
+
+.price :first-child {
+    color: #005746;
+}
+
+.price :nth-child(2) {
+    color: #00B597;
+}
+
+button {
+    background-color: #005746;
+    color: white;
+    border-radius: 0.5rem;
+    width: 95%;
+}

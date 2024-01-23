@@ -1,0 +1,22 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    color: #00B597;
+    font-size: 1.5rem;
+}
+
+.logo :nth-child(2) {
+    margin-left:.3em;
+}
+
+.icostyle {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 3rem;
+}
+
+.thanks {
+    text-align: center;
+    color: #00B597;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,30 @@
+<app-navtop-container></app-navtop-container>
+<app-logo-checkout></app-logo-checkout>
+<mat-stepper #stepper>
+    <mat-step>
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>Identificación</ng-template>
+        <div>
+          <app-address-accordion></app-address-accordion>
+          <button mat-button matStepperNext>Continuar con el pago</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step>
+      <form [formGroup]="secondFormGroup">
+        <ng-template matStepLabel>Pago y envío</ng-template>
+        <app-paymentandshipping></app-paymentandshipping>   
+        <div>
+          <button mat-button matStepperNext>Continuar con el pago</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step>
+      <ng-template matStepLabel>Confirmación</ng-template>
+      <app-confirmation></app-confirmation>
+      <div>
+        <a href="/successful"><button mat-button>Pagar Ahora</button></a>
+        <a href="/cart"><button mat-button>Modificar cesta</button></a>
+      </div>
+    </mat-step>
+  </mat-stepper>

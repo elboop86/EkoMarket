@@ -1,0 +1,22 @@
+.margin-bottom {
+    margin-bottom: 5rem;
+}
+
+.container {
+    border: solid 2px grey;
+    box-shadow: 4px 4px 5px grey;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.btn-color{
+    padding: 0.5rem;
+    background-color: #00b597;
+    color: white;
+    border-radius: 0.5rem;
+  }
+
+  .container label {
+    color: #005746;
+    font-weight: 600;
+  }

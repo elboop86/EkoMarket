@@ -1,0 +1,15 @@
+.mat-mdc-form-field {
+  margin-top: 16px;
+}
+  
+.mat-horizontal-stepper-header {
+  flex-direction: column;  
+}
+
+button {
+  color:white !important;
+  background-color: #005746;
+  margin: 1rem 0;
+  width: 100%;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../../../assets/fonts/MontserratAlternates-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../../../assets/fonts/Roboto-Regular.ttf);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  background-color: rgba(255, 255, 255, 9.999999974752427e-7);
+}
+.text-1 {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  font-family: Montserrat;
+  line-height: auto;
+  color: #00b597;
+}
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 9.999999974752427e-7);
+}
+.text-2 {
+  text-align: left;
+  vertical-align: middle;
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: auto;
+  color: #6c757d;
+}

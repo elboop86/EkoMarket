@@ -1,0 +1,32 @@
+<div class="container">
+  <form [formGroup]="usuario">
+    <div>
+      <label class="form-label">Nombre</label>
+      <input class="form-control" formControlName="nombre" placeholder="Introduce tu nombre" autocapitalize="off">
+    </div>
+    <div>
+      <label class="form-label">Email</label>
+      <input class="form-control" formControlName="email" placeholder="Introduce tu email" autocapitalize="off">
+    </div>
+    <label *ngIf="usuario.controls['email'].errors?.['email'] && (usuario.touched || usuario.dirty)">* El email no es
+      válido.</label>
+    <div>
+      <label class="form-label">Contraseña</label>
+      <input class="form-control" formControlName="password" placeholder="Introduce una contraseña" type="password">
+    </div>
+    <label *ngIf="usuario.controls['password'].errors?.['minlength'] && (usuario.touched || usuario.dirty)">*La contraseña
+      debe tener al menos 6
+      caracteres</label>
+    <div class="form-check mt-2">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Acepto tratamiento de datos personales
+      </label>
+    </div>
+    <div class="padding">
+      <div class="col-12 margin-bottom mt-4">
+        <button class="btn btn-color" [disabled]="!usuario.valid" (click)="registerUser()" type="submit" class="btn-color" expand="block">Registrar</button>
+      </div>
+    </div>
+  </form>
+</div>

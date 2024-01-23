@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+    <form [formGroup]="usuario">
+      <div>
+        <label for="validationServerUsername" class="form-label color-label">Email</label>
+        <input formControlName="email" class="form-control" autocapitalize="off" placeholder="Introduce tu email">
+      </div>
+      <label *ngIf="usuario.controls['email'].errors?.['email'] && (usuario.touched || usuario.dirty)">* El email no es
+        válido.</label>
+      <div>
+        <label  class="form-label color-label mt-1">Contraseña</label>
+        <input formControlName="password" class="form-control" placeholder="Introduce una contraseña" type="password">
+      </div>
+      <label *ngIf="usuario.controls['password'].errors?.['minlength'] && (usuario.touched || usuario.dirty)">*La contraseña
+        debe tener al menos 6
+        caracteres</label>
+      <div class="padding">
+        <div class="col-12 mt-1">
+          <button class="btn btn-color mt-1" [disabled]="!usuario.valid" (click)="login()" type="submit" color="primary" expand="block">Entrar</button>
+        </div>
+        <div class="col-12 mt-1">
+          <a class="color-label" href="/register">Registrate con nosotros</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

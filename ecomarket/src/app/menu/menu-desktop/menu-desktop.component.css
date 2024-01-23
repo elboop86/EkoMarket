@@ -1,0 +1,30 @@
+img {
+    display: none;
+}
+
+i {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    img {
+        display: block;
+    }
+
+    .container-fluid {
+        padding: 1rem;
+    }
+
+    i {
+        display: block;
+        padding: 2rem;
+        font-size: 1.5rem;
+        color: #00B597;
+    }
+
+    .navbar-nav{
+        font-size: 1.7rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+}

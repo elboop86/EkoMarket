@@ -1,0 +1,14 @@
+<div class="grid">
+  <div class="row">
+    <div *ngFor="let item of category" class="col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2 col-xxl-2 category">
+      <div>
+        <a href="{{item.href}}"><img src="{{item.imgsrc}}" alt="Image of {{item.name}}" width="90%" height="auto"></a>
+      </div>
+      <div class="category-general">{{item.name}}</div>
+    </div>
+  </div>
+</div>
+
+<div class="category-name">
+  {{categoryName}}
+</div>

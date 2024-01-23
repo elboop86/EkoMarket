@@ -1,0 +1,61 @@
+.container {
+    border: 2px solid grey;
+    border-radius: 15px;
+    padding-bottom: 2rem;
+}
+.tith3 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+h4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.nav-item i {
+    display: flex;
+    justify-content: center;
+}
+.accord i {
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+}
+.inlinerad {
+    display: inline;
+    margin-bottom: 1rem;
+    margin-right: 1rem;    
+}
+.col {
+    margin-bottom: 1rem;
+}
+.marsr {
+    padding: 0 .5rem;
+}
+.rademp {
+    margin-top: 2rem;
+}
+.infoform {
+    font-size: medium;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.form-label {
+    font-weight: 600;
+}
+
+.container-buttons {
+    border: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+@media (min-widht: 0px) and ( max-widht: 576px) {
+    
+}

@@ -1,0 +1,50 @@
+<app-navtop-container></app-navtop-container>
+
+
+<div *ngFor="let product of products">
+    <div *ngIf="product.href === path">
+        <div class="container">
+            <div class="cont-top">
+                <h4>{{product.name}}</h4>
+            </div>
+        </div>
+        
+        <div class="imgprod">
+            <img src="{{product.imgsrc}}" >
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+        </div>
+        <!-- Detalles del producto -->
+        <div class="cont-des">
+            <h4>Descripción:</h4>
+            <span>{{product.descripcion}}</span>
+        </div>
+        <div class="butinfo">
+            <button type="button" class="btn btn-info prodstock " >
+                Productos en stock Kg. <span class="badge text-bg-secondary">{{product.stock}}</span>
+            </button>
+        </div>
+        <div class="row w-100">
+            <div class="col bord">
+                <div class="priceprod">
+                    <div class="col">
+                        <span>Precio</span>
+                        <p>{{product.price}}<span class="spkg">Kg.</span></p>
+                        <span>IVA INCLUIDO</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col bord">
+                <div class="descu">
+                    <span class="">Precio anterior</span>
+                    <p>{{product.kgprice}}</p>
+                </div>
+            <div class="col oferta">
+                <span>Ahorra hasta un <p style="color: blue;">30%<i class="fa-solid fa-award ms-3 " style="color: red;"></i></p></span>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<app-menufixed></app-menufixed>

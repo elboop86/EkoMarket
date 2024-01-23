@@ -1,0 +1,15 @@
+
+  .padding-title {
+    padding-left: 2rem;
+  }
+
+  .contenedor{
+    background-color: rgb(174, 197, 174) ;
+    display: none;
+  }    
+
+  @media (min-width: 992px) {
+    .contenedor {
+      display: block;
+    }
+  }

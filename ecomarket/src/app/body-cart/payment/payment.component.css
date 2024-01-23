@@ -1,0 +1,61 @@
+.address-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-container p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.address-container i{ 
+    padding: 0 1rem;
+}
+
+.price-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 1rem;
+}
+
+.price-container p{
+    padding: 0 1rem;
+    margin: 0;
+}
+
+.card {
+    margin-bottom: 4rem;
+    border: none;
+}
+
+.card-body {
+    margin: 1rem;
+}
+
+.icostyle{
+    color: #005746;
+}
+
+button {
+    color:white !important;
+    background-color: #005746;
+    margin: 0 1rem 1rem 1rem;
+    width: 95%;
+    border-radius: 0.5rem;
+}
+
+
+@media (min-width: 911px){
+button {
+    color:white !important;
+    background-color: #005746;
+    margin: 0 1rem 1rem 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+img {
+    width: 25%;
+    margin: 0 auto;
+}
+}

@@ -1,0 +1,11 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    color: #00B597;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.logo :nth-child(2) {
+    margin-left:.3em;
+}

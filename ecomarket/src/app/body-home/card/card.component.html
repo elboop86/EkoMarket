@@ -1,0 +1,23 @@
+<div class="container mt-3 mb-5">
+  <div class="grid">
+      <div class="row">
+        <div *ngFor="let item of datos" class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+          <mat-card class="card">
+            <a class="center-img" href="/product/{{item.href}}">
+              <img mat-card-image src="{{item.imgsrc}}" alt="Photo of {{item.name}}">
+            </a>
+            <mat-card-content>
+              <p class="product_name">{{item.name}}</p>
+              <div class="subcontent">
+                <p class="price">{{item.price}}</p>
+                <span>{{item.kgprice}}</span>
+              </div>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button (click)="addToCart(item)">Añadir al carrito</button>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+      </div>
+  </div>
+</div>

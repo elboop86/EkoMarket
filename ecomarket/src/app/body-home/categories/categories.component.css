@@ -1,0 +1,36 @@
+.category {
+    border:  0 1px 1px 0 solid  #91AD8B;
+    background-image: linear-gradient(to bottom left, #FFF484, #91AD88 );
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px grey;
+    padding-bottom: .2rem;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.category-general {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'fontawesome';
+    font-weight: 600;
+    font-size: smaller;
+}
+
+img {
+    padding: 1rem;    
+}
+
+.category-name {
+    text-align: center;
+    padding: 1rem;
+    font-family: 'FontAwesome';
+    font-weight: 700;
+    font-size: 2rem;
+    text-shadow: 4px 4px grey;
+}

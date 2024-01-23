@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../../../assets/fonts/Roboto-Regular.ttf);
+}
+/* .modify-password{
+ color: #00b597;
+}
+
+.font{
+  font-family: Roboto;
+}
+
+.custom-style {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+}
+
+.dropdown-container {
+  margin: 1rem 0;
+} */
+
+.custom-card {
+  border: none;
+  border-radius: 0;
+  margin: 3rem 0;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Roboto;
+}
+
+.custom-card hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.custom-card .card-title {
+  font-weight: bold;
+}
+
+.custom-card .modify-link {
+  color:#00b597;
+  font-weight: bold;
+}

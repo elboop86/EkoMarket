@@ -1,0 +1,169 @@
+<app-navtop-container></app-navtop-container>
+<div class="container">
+
+    <div class="formulario">
+        <h3 class="tith3">Registro nuevo cliente</h3>
+        <span class="infoform">(solo deberá rellenar este formulario la primera vez)</span>
+    </div>
+    <form [formGroup]="usuario" class="row">
+        <div class="accordion" id="accord">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button accord" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <i class="fa-solid fa-children"></i>
+                        <h5>Datos personales</h5>                    
+                    </button>
+                </h2>
+            <div id="collapseOne" class="collapsed accord " data-bs-parent="#accord">
+                <div class="accordion-body">
+                    <div class="row">
+                        <h5>Información personal</h5>
+                        <div class="inlinerad">
+                        <div class="form-check-inline">
+                            <input formControlName="sr" class="form-check-input" type="radio" name="sr" id="sr" value="sr" checked>
+                            <label class="form-check-label marsr" for="sr">
+                                Sr.
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <input formControlName="sr" class="form-check-input" type="radio" name="sr" id="sra" value="sra">
+                            <label class="form-check-label marsr" for="sra">
+                                Sra.
+                            </label>
+                        </div>
+                        </div>
+                        <div class="col">
+                            <label for="nif" class="form-label">N.I.F.</label>
+                            <input formControlName="nif" type="text" class="form-control" id="nif" placeholder="Introduzca su NIF" required>
+                        </div>
+                            <div class="col">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input formControlName="nombre" type="text" class="form-control" id="nombre" placeholder="Nombre de empresa o autónomo" required>
+                            </div>
+                            <div class="row">
+                            <div class="col">
+                                <label class="form-label" for="tel">Teléfono</label>
+                                <div class="input-group">
+                                    <div class="input-group-text">+34</div>
+                                    <input formControlName="phone" type="tel" class="form-control" id="tel" placeholder="Teléfono">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <label class="form-label" for="email">Email</label>
+                                <div class="input-group">
+                                    <div class="input-group-text"></div>
+                                    <input formControlName="email" type="email" class="form-control" id="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col">
+                            <div class="inlinerad">
+                                <div class="form-check-inline rademp">
+                                    <input formControlName="empresa" class="form-check-input" type="radio" name="empresa" id="autonomo" value="autonomo" checked>
+                                    <label class="form-check-label marsr" for="autonomo">
+                                        Autónomo
+                                    </label>
+                                </div>
+                                <div class="form-check-inline rademp">
+                                    <input formControlName="empresa" class="form-check-input" type="radio" name="empresa" id="empresa" value="empresa">
+                                    <label class="form-check-label marsr" for="empresa">
+                                        Empresa
+                                    </label>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                        </div>                                    
+                 </div>
+            </div>
+        </div>
+         <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed accord" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <i class="fa-solid fa-house-chimney"></i>
+                <h5>Dirección de facturación</h5>
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accord">
+            <div class="accordion-body">
+                
+                        <div class="row">
+                    
+                            <div class="col">
+                                <label for="calle" class="form-label">Calle</label>
+                                <input formControlName="calle" type="text" class="form-control" id="calle" placeholder="Ejmpl. C/ Cabanillas" required>
+                            </div>
+                            <div class="col">
+                                <label for="numero" class="form-label">Número</label>
+                                <input formControlName="numero" type="text" class="form-control" id="numero" placeholder="Introduzca su número de portal" required>
+                            </div>
+                            <div class="col">
+                                <label for="piso" class="form-label">Piso</label>
+                                <input formControlName="piso" type="text" class="form-control" id="piso" placeholder="Introduzca su piso" required>
+                            </div>
+                            <div class="col">
+                                <label for="puerta" class="form-label">Puerta</label>
+                                <input formControlName="puerta" type="text" class="form-control" id="puerta" placeholder="Introduzca su puerta" required>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label" for="localidad">Localidad</label>
+                                    <div class="input-group">
+                                        <input formControlName="localidad" type="tel" class="form-control" id="localidad" placeholder="Localidad">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <label class="form-label" for="provincia">Provincia</label>
+                                    <div class="input-group">
+                                        <input formControlName="provincia" type="text" class="form-control" id="provincia" placeholder="Provincia">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <label class="form-label" for="comunidad">Comunidad</label>
+                                    <div class="input-group">
+                                        <input formControlName="comunidad" type="text" class="form-control" id="comunidad" placeholder="Comunidad">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <label class="form-label" for="cp">C.P.</label>
+                                    <div class="input-group">
+                                        <input formControlName="cp" type="text" maxlength="5" class="form-control" id="cp" placeholder="Introduce tu C.P." Código Postal>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed accord" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>Punto de recogida</h5>
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <select formControlName="puntoderecogida" class="form-select" aria-label="Default select example">
+                    <option selected value="0">Seleccione su punto más cercano</option>
+                    <option value="1">Madrid</option>
+                    <option value="2">Barcelona</option>
+                    <option value="3">Valencia</option>
+                    <option value="3">Bilbao</option>
+                    <option value="3">Sevilla</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    </div>
+    </form>
+</div>
+<div class="container container-buttons">
+    <div class="buttons">
+        <button type="button" class="btn btn-primary" (click)="save()">Guardar</button>
+        <button type="button" class="btn btn-danger" (click)="cancel()">Cancelar</button>
+    </div>
+</div>
+<app-menufixed></app-menufixed>

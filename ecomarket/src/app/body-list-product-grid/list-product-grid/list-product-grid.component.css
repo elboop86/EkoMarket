@@ -1,0 +1,25 @@
+.filter_product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1rem;
+    margin: 0.5rem;
+    color: #00B597;
+}
+
+.sort {
+    border: solid 1px #00B597;
+    padding: 0.3rem;
+    margin: 0.5rem;
+    text-align: center;
+    width: 8rem;
+}
+
+.filter_product i {
+    padding: 0.5rem;
+}
+
+.list-grid{
+    display: flex;
+    align-items: center;
+}

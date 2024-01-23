@@ -1,0 +1,19 @@
+<div class="product-card">
+    <img src="{{inputData.imgsrc}}" alt="">
+    <div class="info">
+        <div>categoria</div>
+        <div>{{inputData.name}}</div>
+        <div class="price">
+            <div>{{inputData.price}}</div>
+            <div>{{inputData.kgprice}}</div>
+        </div>
+        <div class="counter">
+            <div class="counter-box">
+                <div (click)="remove()">-</div>
+                <div id="count{{productNumber}}">{{inputData.quantity}}</div>
+                <div (click)="add()">+</div>
+            </div>
+            <div><i class="fa-solid fa-trash"></i></div>
+        </div>
+    </div>
+</div>

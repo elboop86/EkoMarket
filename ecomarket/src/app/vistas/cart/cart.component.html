@@ -1,0 +1,7 @@
+<app-navtop-container></app-navtop-container>
+<app-logo-cart></app-logo-cart>
+<div *ngFor="let item of cartList">
+    <app-products [inputData]="item"></app-products>
+</div>
+<app-payment></app-payment>
+<app-menufixed></app-menufixed>

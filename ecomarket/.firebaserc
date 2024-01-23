@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ecomarket-893f9": {
+      "hosting": {
+        "ecomarket": [
+          "ecomarket-893f9"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ecomarket-893f9"
+  }
+}

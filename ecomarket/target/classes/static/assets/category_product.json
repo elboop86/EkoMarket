@@ -1,0 +1,316 @@
+{
+  "category": [
+    {
+      "name": "Novedades",
+      "imgsrc": "../../../assets/img/category/destacado-cat.png",
+      "href": "/novedades",
+      "products": [
+        {
+          "id": 1,
+          "name": "Cerezas",
+          "price": "1.50€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "cereza",
+          "imgsrc": "../../../assets/img/frutas/cerezas-2_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 2,
+          "name": "Manzanas",
+          "price": "1.50€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "manzana",
+          "imgsrc": "../../../assets/img/frutas/manzanas_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 5,
+          "name": "Naranjas",
+          "price": "1.50€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "naranja",
+          "imgsrc": "../../../assets/img/frutas/naranjas_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 6,
+          "name": "Paraguaya",
+          "price": "1.50€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "paraguaya",
+          "imgsrc": "../../../assets/img/frutas/paraguaya_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 7,
+          "name": "Piña",
+          "price": "1.50€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "pina",
+          "imgsrc": "../../../assets/img/frutas/pina_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 12,
+          "name": "Coliflor",
+          "price": "0.50€",
+          "kgprice": "1.50Kg/€",
+          "stock": "300",
+          "href": "coliflor",
+          "imgsrc": "../../../assets/img/hortalizas/coliflor_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 13,
+          "name": "Lechuga",
+          "price": "0.50€",
+          "kgprice": "1.50Kg/€",
+          "stock": "300",
+          "href": "lechuga",
+          "imgsrc": "../../../assets/img/hortalizas/lechuga_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 14,
+          "name": "Patatas",
+          "price": "0.50€",
+          "kgprice": "1.50Kg/€",
+          "stock": "300",
+          "href": "patata",
+          "imgsrc": "../../../assets/img/hortalizas/patatas_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        }
+      ]
+    },
+    {
+      "name": "Ofertas",
+      "imgsrc": "../../../assets/img/category/destacado-cat2.png",
+      "href": "/ofertas",
+      "products": [
+        {
+          "id": 1,
+          "name": "Cerezas",
+          "price": "1.50€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "cereza",
+          "imgsrc": "../../../assets/img/frutas/cerezas-2_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        }
+      ]
+    },
+    {
+      "name": "Packs",
+      "imgsrc": "../../../assets/img/category/verdura-cat1.png",
+      "href": "/packs",
+      "products" : [
+        {
+          "id": 17,
+          "name": "Pack1",
+          "price": "19.95€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "pack1",
+          "imgsrc": "../../../assets/img/packs/pack-hortalizas_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 18,
+          "name": "Pack2",
+          "price": "24.95€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "pack2",
+          "imgsrc": "../../../assets/img/packs/pack-fruta_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        }
+      ]
+    },
+    {
+      "name": "Frutas",
+      "imgsrc": "../../../assets/img/category/fruta-cat2.png",
+      "href": "/frutas",
+      "products": [
+        {
+          "id": 3,
+          "name": "Melocotón",
+          "price": "1.50€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "melocoton",
+          "imgsrc": "../../../assets/img/frutas/melocoton_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 4,
+          "name": "Melón",
+          "price": "1.50€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "melon",
+          "imgsrc": "../../../assets/img/frutas/melon_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 5,
+          "name": "Naranjas",
+          "price": "1.50€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "naranja",
+          "imgsrc": "../../../assets/img/frutas/naranjas_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 6,
+          "name": "Paraguaya",
+          "price": "1.50€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "paraguaya",
+          "imgsrc": "../../../assets/img/frutas/paraguaya_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 7,
+          "name": "Piña",
+          "price": "1.50€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "pina",
+          "imgsrc": "../../../assets/img/frutas/pina_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 8,
+          "name": "Sandía",
+          "price": "1.50€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "sandia",
+          "imgsrc": "../../../assets/img/frutas/sandia_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        }
+      ]
+    },
+    {
+      "name": "Verduras",
+      "imgsrc": "../../../assets/img/category/verdura-cat2.png",
+      "href": "/verdurashortalizas",
+      "products": [
+        {
+          "id": 9,
+          "name": "Acelga",
+          "price": "0.50€",
+          "kgprice": "1.50Kg/€",
+          "stock": "300",
+          "href": "acelga",
+          "imgsrc": "../../../assets/img/hortalizas/acelgas_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 10,
+          "name": "Calabacín",
+          "price": "0.50€",
+          "kgprice": "1.50Kg/€",
+          "stock": "300",
+          "href": "calabacin",
+          "imgsrc": "../../../assets/img/hortalizas/calabacin_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 11,
+          "name": "Cebolla",
+          "price": "0.50€",
+          "kgprice": "1.50Kg/€",
+          "stock": "300",
+          "href": "cebolla",
+          "imgsrc": "../../../assets/img/hortalizas/cebolla_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 12,
+          "name": "Coliflor",
+          "price": "0.50€",
+          "kgprice": "1.50Kg/€",
+          "stock": "300",
+          "href": "coliflor",
+          "imgsrc": "../../../assets/img/hortalizas/coliflor_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 13,
+          "name": "Lechuga",
+          "price": "0.50€",
+          "kgprice": "1.50Kg/€",
+          "stock": "300",
+          "href": "lechuga",
+          "imgsrc": "../../../assets/img/hortalizas/lechuga_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 14,
+          "name": "Patatas",
+          "price": "0.50€",
+          "kgprice": "1.50Kg/€",
+          "stock": "300",
+          "href": "patata",
+          "imgsrc": "../../../assets/img/hortalizas/patatas_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 15,
+          "name": "Tomates",
+          "price": "0.50€",
+          "kgprice": "1.50Kg/€",
+          "stock": "300",
+          "href": "tomate",
+          "imgsrc": "../../../assets/img/hortalizas/ztomates_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 16,
+          "name": "Zanahoria",
+          "price": "0.50€",
+          "kgprice": "1.50Kg/€",
+          "stock": "300",
+          "href": "zanahoria",
+          "imgsrc": "../../../assets/img/hortalizas/zanahorias_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        }
+      ]
+    },
+    {
+      "name": "Temporada",
+      "imgsrc": "../../../assets/img/category/temporada-cat.png",
+      "href": "/temporada",
+      "products" : [
+        {
+          "id": 8,
+          "name": "Sandía",
+          "price": "1.50€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "sandia",
+          "imgsrc": "../../../assets/img/frutas/sandia_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        },
+        {
+          "id": 4,
+          "name": "Melón",
+          "price": "1.50€",
+          "kgprice": "3.50Kg/€",
+          "stock": "408",
+          "href": "melon",
+          "imgsrc": "../../../assets/img/frutas/melon_400.jpg",
+          "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores sapiente,"
+        }
+      ]
+    }
+  ]
+}
